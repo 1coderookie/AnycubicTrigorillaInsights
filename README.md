@@ -1,5 +1,5 @@
 # Anycubic Trigorilla Boards
-Here you'll find an overview about some Trigorilla mainboards that Anycubic used in their 3D FDM printers (generation Kobra and younger).  
+Here you'll find an overview about Trigorilla mainboards that Anycubic used in their 3D FDM printers (generation Kobra and younger).  
 
 ---
 
