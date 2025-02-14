@@ -3,7 +3,9 @@ Here you'll find some information about Trigorilla mainboards that Anycubic used
 
 ---
 
-## Printer Models 
+## Mainboards And Respective Printer Models 
+
+The following table gives an overview about the printer models where the specific mainboards have been used.  
 
 | Board Label | Version | Printer |
 |:-----------:|:-------:|:-------:|
@@ -18,6 +20,8 @@ Here you'll find some information about Trigorilla mainboards that Anycubic used
 ---
 
 ## Hardware
+
+The following table gives an overview about the imho most important-to-know hardware specs.  
 
 All mainboards run on 24V DC and have the stepper drivers soldered onto them. 
 
@@ -34,6 +38,9 @@ All mainboards run on 24V DC and have the stepper drivers soldered onto them.
 ---
 
 ## Firmware
+
+The following table gives an overview about the firmware the boards are running as well as alternative firmware compatibility.  
+
 
 | Board Label | Version | Stock Firmware | Stock FW Mods | Klipper |
 |:-----------:|:-------:|:--------------:|:-------:|:-------------:|
