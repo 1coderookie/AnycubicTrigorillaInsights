@@ -1,6 +1,7 @@
 # Anycubic Trigorilla Boards
-Here I'll give an overview about (some) Trigorilla mainboards that Anycubic used in their 3D FDM printers.  
+Here you'll find an overview about some Trigorilla mainboards that Anycubic used in their 3D FDM printers (generation Kobra and younger).  
 
+---
 
 ## Printer Models 
 
@@ -18,18 +19,17 @@ Here I'll give an overview about (some) Trigorilla mainboards that Anycubic used
 
 ## Hardware
 
-All mainboards run on 24V DC and all mainboards have the stepper drivers soldered onto them. 
+All mainboards run on 24V DC and have the stepper drivers soldered onto them. 
 
-
-| Board Label | Version | MCU | Stepper Drivers | 
-|:-----------:|:-------:|:---:|:---------------:|
-| Trigorilla Gen | V3.0.6 <br> V3.0.7 |  HC32F460 | TMC2208 <br> GC6609 | 
-| Trigorilla Gen | V4.0.1 | GD32F303 | TMC2208 <br> GC6609 | 
-| Trigorilla Pro A | V1.0.4 | HC32F460 | TMC2208 <br> GC6609 | 
-| Trigorilla Pro B | V1.0.2 | HC32F460 | TMC2208 <br> GC6609 | 
-| Trigorilla Spe A | V1.0.0 | ARM Cortex-A7 | TMC2209 | 
-| Trigorilla Spe B | V1.0.4 <br> V1.0.5 | HC32F460 | TMC2209 | 
-| Trigorilla Spe B | V1.1.3 | HC32F460 | TMC2209 |
+| Board Label | Version | MCU | Stepper Drivers | mSD | USB | WiFi | 
+|:-----------:|:-------:|:---:|:---------------:|:---:|:---:|:----:|
+| Trigorilla Gen | V3.0.6 <br> V3.0.7 |  HC32F460 | TMC2208 <br> GC6609 | Yes | Yes | No |
+| Trigorilla Gen | V4.0.1 | GD32F303 | TMC2208 <br> GC6609 |  Yes | Yes | No |
+| Trigorilla Pro A | V1.0.4 | HC32F460 | TMC2208 <br> GC6609 |  Yes | Yes | No |
+| Trigorilla Pro B | V1.0.2 | HC32F460 | TMC2208 <br> GC6609 |  Yes | Yes | No |
+| Trigorilla Spe A | V1.0.0 | ARM Cortex-A7 | TMC2209 |  No | Yes (no PC connection) | Yes |
+| Trigorilla Spe B | V1.0.4 <br> V1.0.5 | HC32F460 | TMC2209 |  No | Yes (no PC connection) | Yes |
+| Trigorilla Spe B | V1.1.3 | HC32F460 | TMC2209 | No | Yes (no PC connection) | Yes |
 
 ---
 
