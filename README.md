@@ -1,11 +1,16 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
+
+---
+
 # Anycubic Trigorilla Mainboards
-Here you'll find some information about Trigorilla mainboards that Anycubic used in their 3D FDM printers (generation Kobra and younger).  
+Here you'll find some information about Trigorilla mainboards that Anycubic used in their 3D FDM printers (since Kobra 1st gen.).  
 
 ---
 
 ## Mainboards And Respective Printer Models 
 
 The following table gives an overview about the printer models where the specific mainboards have been used.  
+If there's an Insights page I created about the specific model, I linked to it.   
 
 | Board Label | Version | Printer |
 |:-----------:|:-------:|:-------:|
@@ -23,7 +28,9 @@ The following table gives an overview about the printer models where the specifi
 
 The following table gives an overview about the imho most important-to-know hardware specs.  
 
-All mainboards run on 24V DC and have the stepper drivers soldered onto them. 
+- All mainboards run on 24V DC and have the stepper drivers soldered right onto the PCB.  
+- None of the mainboards has a fuse that could be changed in case of damage due to high voltage.  
+- PWM is being achieved by switching GND 
 
 | Board Label | Version | MCU | Stepper Drivers | mSD | USB | WiFi | 
 |:-----------:|:-------:|:---:|:---------------:|:---:|:---:|:----:|
