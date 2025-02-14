@@ -39,7 +39,7 @@ All mainboards run on 24V DC and have the stepper drivers soldered onto them.
 |:-----------:|:-------:|:--------------:|:-------:|:-------------:|
 | Trigorilla Gen | V3.0.6 <br> V3.0.7 | Marlin | [Yes](https://1coderookie.github.io/KobraGoNeoInsights/firmware/fw_marlin/#mods) | [Yes](https://github.com/1coderookie/Klipper4KobraGoNeo) - w/o mod |
 | Trigorilla Gen | V4.0.1 | Marlin | [Yes](https://1coderookie.github.io/Kobra2NeoInsights/firmware/fw_marlin/#mods) | [Yes](https://github.com/1coderookie/Klipper4Kobra2series/tree/main/Kobra2Neo) - w/o mod |  
-| Trigorilla Pro A | V1.0.4 | Marlin | unknown | Yes - *with mod*: <br> Solder R65 to R66 *or* use [catboat](https://github.com/printers-for-people/catboat)! |
+| Trigorilla Pro A | V1.0.4 | Marlin | unknown | Yes - *with mod*: <br> [Solder R65 to R66](https://klipper.discourse.group/t/support-for-hdsc-chips-hc32f460/2860/54) *or* use [catboat](https://github.com/printers-for-people/catboat)! |
 | Trigorilla Pro B | V1.0.2 | Marlin | unknown | [Yes](https://github.com/1coderookie/Klipper4Kobra2series/tree/main/Kobra2) - w/o mod |
 | Trigorilla Spe A | V1.0.0 | KobraOS | No | No |
 | Trigorilla Spe B | V1.0.4 <br> V1.0.5 | KobraOS | Yes: [Rinkhals](https://github.com/jbatonnet/Rinkhals) | unknown | 
