@@ -86,13 +86,13 @@ It offers three USB-A connectors labeled at the PCB as "U-EXT1", "U-EXT2" and "U
 
 It also offers a built in Realtek WiFi chip ([RTL8723DU](https://www.realtek.com/en/products/communications-network-ics/item/rtl8723du)) with an external antenna which is glued to the left front side of the black plastic aperture from the inside of the housing (the position is about where the label "Kobra 2 Pro" is located).   
 
-![Mainboard TriGorilla front](../assets/images/mainboard_K2Pro_frontside_web.jpg)  
+![Mainboard TriGorilla front](assets/images/mainboard_K2Pro_frontside_web.jpg)  
   
-![Mainboard TriGorilla back](../assets/images/mainboard_K2Pro_backside_web.jpg)  
+![Mainboard TriGorilla back](assets/images/mainboard_K2Pro_backside_web.jpg)  
 
 At the following picture I added labels of the connectors.  
 
-![Mainboard labeled](../assets/images/mainboard_K2Pro_labeled_web.jpg)
+![Mainboard labeled](assets/images/mainboard_K2Pro_labeled_web.jpg)
 
 The pinout of the 7 pin connector of the acceleration sensor is printed onto the PCB itself (same with some other pinouts of connectors in that row), but I'll list it here again, just in case you can't read it on your mainboard and when zooming in the picture shown above.  
 So when you're looking at the connector in the direction of the picture above, the pinout (from left to right) is:  
@@ -107,11 +107,11 @@ The "Trigorilla_Spe_**B**_V1.0.x" is a 32bit 24V mainboard with a Huada HC32F460
 Two revisions of this mainboard have been spotted in a Kobra 2 Pro, the "Spe_B_v1.0.4" and the "Spe_B_v1.0.5".  
 The following picture shows the "Trigorilla Spe_B_v1.0.5".  
 
-![Mainboard SPE B 1.0.5](../assets/images/SPE_B_naked_web.jpg)  
+![Mainboard SPE B 1.0.5](assets/images/SPE_B_naked_web.jpg)  
 
-![Mainboard SPE B revisions](../assets/images/SPE_B_labels.jpg)
+![Mainboard SPE B revisions](assets/images/SPE_B_labels.jpg)
   
-![Mainboard SPE B chipset](../assets/images/SPE_B_chipset_web.jpg)   
+![Mainboard SPE B chipset](assets/images/SPE_B_chipset_web.jpg)   
 
 The mainboard comes with four TMC2209 silent stepper drivers (at least that's what Anycubic states - I didn't take off the heatsinks to check if these really are genuine TMC2209 chips) which are *soldered* onto the board (they can't be swapped out!).  
 It offers three USB-A connectors and WiFi.     
