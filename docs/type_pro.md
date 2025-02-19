@@ -9,7 +9,11 @@
 
 ---
 
-## Mainboards And Respective Printer Models 
+## Overview  
+
+---
+
+### Mainboards And Respective Printer Models 
 
 The following table gives an overview about the printer models where the specific mainboards have been used.  
 If there's an Insights page I created about the specific model, I linked to it.   
@@ -21,7 +25,7 @@ If there's an Insights page I created about the specific model, I linked to it.
 
 ---
 
-## Hardware
+### Hardware
 
 The following table gives an overview about the imho most important-to-know hardware specs.  
 
@@ -37,7 +41,7 @@ The following table gives an overview about the imho most important-to-know hard
 
 ---
 
-## Firmware
+### Firmware
 
 The following table gives an overview about the firmware the boards are running as well as alternative firmware compatibility.  
 
@@ -46,6 +50,49 @@ The following table gives an overview about the firmware the boards are running 
 |:-----------:|:-------:|:--------------:|:-------:|:-------------:|
 | Trigorilla Pro A | V1.0.4 | Marlin | unknown | Yes - *with mod*: <br> [Solder R65 to R66](https://klipper.discourse.group/t/support-for-hdsc-chips-hc32f460/2860/54) *or* use [catboat](https://github.com/printers-for-people/catboat)! |
 | Trigorilla Pro B | V1.0.2 | Marlin | unknown | [Yes](https://github.com/1coderookie/Klipper4Kobra2series/tree/main/Kobra2) - w/o mod |
+
+
+---
+
+## Pro A V1.0.4
+
+
+
+---
+
+## Pro B V1.0.2 
+  
+The stock mainboard is the "Trigorilla Pro B_1.0.2".  
+It is a 32bit 24V mainboard with a Huada HC32F460 KCTA ARM Cortex-M4 with 192KB SRAM and 512KB Flash.  
+The speed  of the ARM chip is listed as 200MHz by the manufacturer.  
+It offers a microSD card reader, a USB-C connector and a 10 pin connector for adding the control unit.    
+The mainboard comes with TMC2208 silent stepper drivers *soldered* onto the board (so they can't be just swapped out!).   
+
+<!--
+??? info "Maybe GC6609 Stepper Drivers Are Being Used As Well!"  
+
+    It seems that Anycubic changed the stepper drivers from original TMC2208 to cheap 2208/2209 clones, called "GC6609".  
+    When exactly this change took place and whether it's a permanent solution or if only a certain batch of these mainboards have been populated with these kind of stepper drivers is unknown. It seems though that the mainboards which are equipped with these drivers are set up with silver heatsinkns instead of black heatsinks.    
+    However, the following picture shows this stepper driver (you'd have to take off the heatsink to identify which specific type was being used at your mainboard - which I wouldn't recommend to do if you're just curious to know which one you have..).    
+    
+    ![GC6609](../assets/images/board_GC6609-stepperdrivers_web.jpeg)  
+    
+    I personally don't know anything about these drivers, but @aspiringnobody shared his knowledge and findings in [this discussion](https://github.com/1coderookie/KobraGoNeoInsights/discussions/13). If you know anything more, please reach out and contribute to the discussion!  
+    
+    Thanks again to @aspiringnobody who came across this and reported it!  
+-->  
+  
+![Mainboard TriGorilla front assembled](assets/images/mobo_K2_full_web.jpeg)  
+
+![Mainboard TriGorilla front](assets/images/Trigorilla_Pro_B_v102_front_web.jpg)  
+
+![Mainboard TriGorilla back](assets/images/Trigorilla_Pro_B_v102_back_web.jpg)  
+  
+![Mainboard label](assets/images/mobo_K2_label_web.jpeg)  
+
+![Mainboard MCU](assets/images/mobo_K2_processor_web.jpeg)  
+
+
 
 ---
 
