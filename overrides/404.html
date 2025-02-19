@@ -1,0 +1,83 @@
+{% extends "main.html" %} 
+  
+<!-- Content --> 
+
+{% block container %} 
+
+
+
+<style>
+
+body {
+    background-image: url("diggin.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-color: black;
+    background-position: center; 
+}
+
+  
+section.notFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5%;
+    height: 60vh;
+}
+
+section.notFound h1 {
+    color: red;
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+
+  
+div.text {
+    height: 15vh;
+}
+
+div.text a {
+    color: red;
+    text-decoration: underline;
+    margin-right: 15px;
+}
+
+div.text a:hover {
+    color: yellow;
+    text-decoration: none; 
+}
+
+@media only screen and (max-width: 600px) {
+    section.notFound {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    section.notFound div.img img {
+        width: 30vw;
+        height: auto;
+    }
+    section.notFound h1 {
+        color: red;
+        font-size: 20px;
+    }  
+    div.text a {
+    color: red;
+    text-decoration: underline;
+    margin-right: 15px;
+    }
+    div.text a:active {
+    color: yellow;
+    text-decoration: none; 
+  }
+}
+</style>
+    <section class="notFound">
+        <div class="text">
+        <h1>Sorry! <br> I've been digging deep, but I can't find what you're looking for.. <br> Please start all over from <a href="https://1coderookie.github.io/KobraGoNeoInsights" class="yes">HOME</a></h1>
+        </div>
+    </section>
+
+
+{% endblock %} 
