@@ -125,11 +125,10 @@ markdown_extensions:
 # Page tree / navigation
 nav: 
   - Home: 'index.md'
-  - Board Types: 
-    - Overview: 'overview.md'
-    - Type "Gen": 'type_gen.md'
-    - Type "Pro": 'type_pro.md'
-    - Type "Spe": 'type_spe.md'
+  - Overview: 'overview.md'
+  - Type "Gen": 'type_gen.md'
+  - Type "Pro": 'type_pro.md'
+  - Type "Spe": 'type_spe.md'
     
 
         
