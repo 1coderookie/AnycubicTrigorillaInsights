@@ -57,7 +57,12 @@ The following table gives an overview about the firmware the boards are running 
 ## Pro A V1.0.4
 
 
+<!---
 
+### MOD: Replacing With Pro B
+
+If needed, the Pro A v1.0.4 can be replaced with the younger Pro B v1.0.2. The wiring should be similar to the (mostly) plug and play
+-->
 ---
 
 ## Pro B V1.0.2 
