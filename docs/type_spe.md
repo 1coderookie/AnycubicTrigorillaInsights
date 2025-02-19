@@ -76,7 +76,7 @@ So if you're looking for a solution to run a different type of firmware (either 
 
 --->
 
-## Trigorilla_Spe_A_V1.0.0 
+## Spe A V1.0.0 
   
 The "Trigorilla_Spe_**A**_V1.0.0" is a 32bit 24V mainboard with an ARM Cortex-A7 which runs at 1.2GHz and offers 8GB of internal storage capacity.  
 
@@ -101,7 +101,7 @@ So when you're looking at the connector in the direction of the picture above, t
 
 ---
 
-## Trigorilla_Spe_B_V1.0.x (Stock, new revision) 
+## Spe B V1.0.4/1.0.5
   
 The "Trigorilla_Spe_**B**_V1.0.x" is a 32bit 24V mainboard with a Huada HC32F460 chip.  
 Two revisions of this mainboard have been spotted in a Kobra 2 Pro, the "Spe_B_v1.0.4" and the "Spe_B_v1.0.5".  
