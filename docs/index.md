@@ -6,6 +6,8 @@
 
 # Welcome  
 to my infosite about Anycubic's **Trigorilla** mainboards.   
+
+**WORK IN PROGRESS**
   
 Here you'll find information about some models of the Trigorilla mainboards, mostly since Kobra gen1.  
 I provide the information based on my personal research and knowledge - if you have further information or found errors in my description, feel free to reach out (see email address in the footer).     
