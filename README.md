@@ -2,7 +2,12 @@
 
 ---
 
-# Anycubic Trigorilla Mainboards
+# Anycubic Trigorilla Insightss
+
+Please visit the GitHub pages: https://1coderookie.github.io/AnycubicTrigorillaInsights/  
+
+
+<!--
 Here you'll find some information about Trigorilla mainboards that Anycubic used in their 3D FDM printers (since Kobra 1st gen.).  
 
 ---
@@ -58,7 +63,7 @@ The following table gives an overview about the firmware the boards are running 
 | Trigorilla Spe A | V1.0.0 | KobraOS | No | No |
 | Trigorilla Spe B | V1.0.4 <br> V1.0.5 | KobraOS | Yes: [Rinkhals](https://github.com/jbatonnet/Rinkhals) | unknown | 
 | Trigorilla Spe B | V1.1.3 |KobraOS | Yes: [Rinkhals](https://github.com/jbatonnet/Rinkhals) | unknown | 
-
+-->
 
 ---
 
