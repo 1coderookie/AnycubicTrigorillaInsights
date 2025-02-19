@@ -67,7 +67,7 @@ The mainboard comes with TMC2208 silent stepper drivers *soldered* onto the boar
     When exactly this change took place and whether it's a permanent solution or if only a certain batch of these mainboards have been populated with these kind of stepper drivers is unknown. It seems though that the mainboards which are equipped with these drivers are set up with silver heatsinks instead of black heatsinks.    
     However, the following picture shows this stepper driver (you'd have to take off the heatsink to identify which specific type was being used at your mainboard - which I wouldn't recommend to do if you're just curious to know which one you have..).    
     
-    ![GC6609](../assets/images/board_GC6609-stepperdrivers_web.jpeg)  
+    ![GC6609](assets/images/board_GC6609-stepperdrivers_web.jpeg)  
     
         
 
@@ -102,7 +102,7 @@ The mainboard comes with TMC2208 silent stepper drivers *soldered* onto the boar
     When exactly this change took place and whether it's a permanent solution or if only a certain batch of these mainboards have been populated with these kind of stepper drivers is unknown. It seems though that the mainboards which are equipped with these drivers are set up with silver heatsinkns instead of black heatsinks.    
     However, the following picture shows this stepper driver (you'd have to take off the heatsink to identify which specific type was being used at your mainboard - which I wouldn't recommend to do if you're just curious to know which one you have..).    
     
-    ![GC6609](../assets/images/board_GC6609-stepperdrivers_web.jpeg)  
+    ![GC6609](assets/images/board_GC6609-stepperdrivers_web.jpeg)  
     
     
   
