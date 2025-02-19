@@ -125,8 +125,8 @@ markdown_extensions:
 # Page tree / navigation
 nav: 
   - Home: 'index.md'
-  - Overview: 'overview.md'
-  - Trigorilla Boards: 
+  - Board Types: 
+    - Overview: 'overview.md'
     - Type "Gen": 'type_gen.md'
     - Type "Pro": 'type_pro.md'
     - Type "Spe": 'type_spe.md'
