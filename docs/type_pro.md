@@ -48,7 +48,7 @@ The following table gives an overview about the firmware the boards are running 
 
 | Board Label | Version | Stock Firmware | Stock FW Mods | Klipper |
 |:-----------:|:-------:|:--------------:|:-------:|:-------------:|
-| Trigorilla Pro A | V1.0.4 | Marlin | unknown | Yes - *with mod*: <br> [Solder R65 to R66](https://klipper.discourse.group/t/support-for-hdsc-chips-hc32f460/2860/54) *or* use [catboat](https://github.com/printers-for-people/catboat)! |
+| Trigorilla Pro A | V1.0.4 | Marlin | unknown | Yes - *with mod*: <br> [Solder R65 to R66](type_pro.md#important-notes-on-klipper) *or* use [catboat](https://github.com/printers-for-people/catboat)! |
 | Trigorilla Pro B | V1.0.2 | Marlin | unknown | [Yes](https://github.com/1coderookie/Klipper4Kobra2series/tree/main/Kobra2) - w/o mod |
 
 
@@ -56,13 +56,47 @@ The following table gives an overview about the firmware the boards are running 
 
 ## Pro A V1.0.4
 
+It is a 32bit 24V mainboard with a Huada HC32F460 KCTA ARM Cortex-M4 with 192KB SRAM and 512KB Flash.  
+The speed  of the ARM chip is listed as 200MHz by the manufacturer.  
+The mainboard comes with TMC2208 silent stepper drivers *soldered* onto the board (so they can't be just swapped out!).   
 
-<!---
+![Mainboard TriGorilla front](assets/images/Pro_A_v104_front_web.jpg)  
+
+![Mainboard TriGorilla back](assets/images/Pro_A_v104_back_web.jpg)  
+
+---
 
 ### MOD: Replacing With Pro B
 
-If needed, the Pro A v1.0.4 can be replaced with the younger Pro B v1.0.2. The wiring should be similar to the (mostly) plug and play
--->
+If needed, the Pro A v1.0.4 can be replaced with the younger Pro B v1.0.2, the connectors and wiring of the parts do fit.  
+Then install Klipper with the according `printer.cfg` for the Pro B, mind the settings and make sure that they fit your printer (e.g. check on the bed size).  
+
+
+---
+
+### Important Notes On Klipper
+
+Due to a (imho) faulty PCB design and therefore certain TMC driver issues, we can't just run the stock Pro A board with a native Klipper.   
+We have two options here we *have* to choose from:  
+- proceed a little hardware mod or  
+- run a special version of Klipper.  
+
+Now, the first option is to grab a solder iron and replace the resistor R65 to the location of R66.  
+R65 is labeled as "000", which means it has zero resistance and is basically just a 'bridge' to close the circuit there. So you can either unsolder it and then solder it to R66, or you carefull chip R65 away and close the contact at R66 with a small piece of wire you solder across them (or solder only).  
+The following picture shows the location of R65 and R66.  
+
+![R65 R66](assets/images/closeup_solder_web.jpg)  
+
+
+*Make sure to not harm any other parts and don't create any short circuits!*     
+
+
+
+The second option is to use a special fork of Klipper: ["catboat"](https://github.com/printers-for-people/catboat).  
+Catboat addresses and solves the issue on a software side, so you *don't have to solder*.  
+You can find `printer.cfg` files for all the printer models where this mainboard was being used [here](https://github.com/printers-for-people/catboat/tree/main/config) - please make sure to use the correct one.  
+
+
 ---
 
 ## Pro B V1.0.2 
@@ -85,8 +119,10 @@ The mainboard comes with TMC2208 silent stepper drivers *soldered* onto the boar
     
     Thanks again to @aspiringnobody who came across this and reported it!  
 -->  
-  
+
+<!--  
 ![Mainboard TriGorilla front assembled](assets/images/mobo_K2_full_web.jpeg)  
+-->
 
 ![Mainboard TriGorilla front](assets/images/Trigorilla_Pro_B_v102_front_web.jpg)  
 
