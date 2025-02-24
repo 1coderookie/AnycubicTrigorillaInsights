@@ -30,7 +30,6 @@ If there's an Insights page I created about the specific model, I linked to it.
 The following table gives an overview about the imho most important-to-know hardware specs.  
 
 - All mainboards run on 24V DC and have the stepper drivers soldered right onto the PCB.  
-- None of the mainboards has a fuse that could be changed in case of damage due to high voltage.  
 - PWM is being achieved by switching GND 
 
 | Board Label | Version | MCU | Stepper Drivers | mSD | USB | WiFi | 
