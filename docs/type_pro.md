@@ -21,7 +21,7 @@ If there's an Insights page I created about the specific model, I linked to it.
 | Board Label | Version | Printer |
 |:-----------:|:-------:|:-------:|
 | Trigorilla Pro A | V1.0.4 | Kobra <br> Kobra Plus <br> Kobra Max <br> Vyper | 
-| Trigorilla Pro B | V1.0.2 | [Kobra 2](https://1coderookie.github.io/Kobra2Insights/hardware/mainboard/#trigorilla-pro-b-v_102-stock) | 
+| Trigorilla Pro B | V1.0.2 | [Kobra 2](https://1coderookie.github.io/Kobra2Insights/hardware/mainboard/#trigorilla-pro-b-v_102-stock) <br> Later revs. of: <br> Kobra <br> Kobra Plus <br> Kobra Max | 
 
 ---
 
@@ -49,7 +49,7 @@ The following table gives an overview about the firmware the boards are running 
 | Board Label | Version | Stock Firmware | Stock FW Mods | Klipper |
 |:-----------:|:-------:|:--------------:|:-------:|:-------------:|
 | Trigorilla Pro A | V1.0.4 | Marlin | unknown | Yes - *with mod*: <br> [Solder R65 to R66](type_pro.md#important-notes-on-klipper) *or* use [catboat](https://github.com/printers-for-people/catboat)! |
-| Trigorilla Pro B | V1.0.2 | Marlin | unknown | [Yes](https://github.com/1coderookie/Klipper4Kobra2series/tree/main/Kobra2) - w/o mod |
+| Trigorilla Pro B | V1.0.2 | Marlin | unknown | Yes - w/o mod <br> [Kobra 2](https://github.com/1coderookie/Klipper4Kobra2series/tree/main/Kobra2) <br> add Kobras... |
 
 
 ---
